@@ -84,6 +84,7 @@ def nt_minimizer(f, x0, step_len, obj_tol, param_tol, max_iter):
     path_x2_list = [x_prev[1]]
     path_obj_func_list = [f_prev]
 
+
     while not success and i < max_iter:
         search_dir = np.linalg.solve(h_prev, -g_prev)
         x_next = x_prev + alpha * search_dir

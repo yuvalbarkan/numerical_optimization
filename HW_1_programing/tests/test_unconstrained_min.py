@@ -25,8 +25,6 @@ class TestUnconstrained(unittest.TestCase):
         plot_contour_lines(f, methods, title, x1_list, x2_list, max_iter)
         plot_func_value_vs_iter_num(object_list, methods, title)
 
-
-
     result = minimizer(f=linear_func, x0=np.array([1.,1.]), method='gd', step_len='wolfe', max_iter=100)
     x1_list = result[0]
     x2_list = result[1]
