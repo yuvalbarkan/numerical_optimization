@@ -122,8 +122,3 @@ def nt_minimizer(f, x0, step_len, obj_tol, param_tol, max_iter):
 
     print(f"Success: {success}")
     return path_x1_list, path_x2_list, path_obj_func_list, success
-
-
-if __name__ == '__main__':
-    x0=np.array([1.,1.])
-    path_x1_list, path_x2_list, path_obj_func_list, success = gd_minimizer(f_calc_d1, x0, 0.01, 1e-12, 1e-18, 100)
