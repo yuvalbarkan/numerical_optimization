@@ -11,6 +11,7 @@ class TestUnconstrained(unittest.TestCase):
     x0_list = [np.array([1.,1.]),np.array([1.,1.]), np.array([1.,1.]), np.array([1.,1.]),np.array([-1.,2.])]
     max_iter_list = [100, 100, 100, 100, 10000]
 
+
     for f, title, x0, max_iter in zip(func_list,titles_list,x0_list,max_iter_list):
         results_list=[]
         methods=['gd','nt']

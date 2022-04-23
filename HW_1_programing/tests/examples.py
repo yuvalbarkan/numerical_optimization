@@ -14,7 +14,6 @@ def f_calc_d1(x: np.ndarray, eval_hessian: bool = False):
         return f_x, g_x, h_x
     return f_x, g_x
 
-
 def f_calc_d2(x: np.ndarray, eval_hessian: bool = False):
     Q = np.array([[1, 0],
                   [0, 100]])
