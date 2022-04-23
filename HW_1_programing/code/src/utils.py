@@ -31,6 +31,7 @@ def plot_contour_lines(f, methods,title, x1_list, x2_list,func_val_list,
     plt.plot(x1_list[0][-1], x2_list[0][-1], marker='X' , markerfacecolor='blue', markeredgecolor='black',markersize=12)
     plt.plot(x1_list[1][-1], x2_list[1][-1] , marker='X' , markerfacecolor='orange', markeredgecolor='black', markersize=12)
 
+
     plt.xlabel('x1')
     plt.ylabel('x2')
     plt.legend(methods)

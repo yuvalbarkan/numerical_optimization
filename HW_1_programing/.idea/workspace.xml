@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c12039ee-4e0b-4a31-8e70-4045890b4479" name="Changes" comment="inital project">
-      <change beforePath="$PROJECT_DIR$/src/unconstrained_min.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/unconstrained_min.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/examples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_unconstrained_min.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_unconstrained_min.py" afterDir="false" />
-    </list>
+    <list default="true" id="c12039ee-4e0b-4a31-8e70-4045890b4479" name="Changes" comment="inital project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +145,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650381057444</updated>
       <workItem from="1650381060363" duration="40199000" />
-      <workItem from="1650712495050" duration="153000" />
+      <workItem from="1650712495050" duration="641000" />
     </task>
     <servers />
   </component>
