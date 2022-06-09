@@ -17,7 +17,7 @@ def eq_constraints_rhs(eval_quad: bool = False):
 
 ###################### QP function: ###########################
 
-def qp_func(x: np.ndarray):  # , eval_quad: bool = False):
+def qp_func(x: np.ndarray):
     # x=x0, y=x1, z=x2
     # min function
     f_x = x[0] ** 2 + x[1] ** 2 + (x[2] + 1) ** 2
@@ -58,7 +58,7 @@ def qp_ineq3(x: np.ndarray):
 
 ###################### LP function: ###########################
 
-def lp_func(x: np.ndarray):  # , eval_quad: bool = False):
+def lp_func(x: np.ndarray):
     # x=x0, y=x1
     # adding minus because its a maximize function
     f_x = -x[0] - x[1]

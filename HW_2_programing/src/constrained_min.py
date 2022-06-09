@@ -37,15 +37,13 @@ def termination_flag(x_next, x_prev, f_next, f_prev, obj_tol, param_tol, g_val=N
 def interior_pt(func, ineq_constraints, eq_constraints_mat, eq_constraints_rhs, x0, max_inner_iter=100, mu=10,
                 epsilon=1e-6):
     x_prev = x0.copy()
-    t = 1  # V
+    t = 1
     # number of inequality constraint:
     m = len(ineq_constraints)
     # Check if there are equality constraints:
     A, b = eq_constraints_mat, eq_constraints_rhs
 
     # constants variables:
-    # wolfe_slope_const=0.5
-    # backtrack_const = 0.9
     wolfe_slope_const = 0.01
     backtrack_const = 0.5
     obj_tol = 1e-12
@@ -112,4 +110,4 @@ def interior_pt(func, ineq_constraints, eq_constraints_mat, eq_constraints_rhs, 
             x_prev, f_prev, g_prev, h_prev = x_next, f_next, g_next, h_next
 
     path_history = np.array(path_history)
-    return x_prev, path_history # x_prev, path_history
+    return x_prev, path_history
